@@ -37,7 +37,8 @@ The Liberty files are present in the library path,
 • The tool used for Synthesis is “Genus”. Hence, type “genus -gui” to open the tool.
 
 • Genus Script file with .tcl file Extension commands are executed one by one to synthesize the netlist.
-
+### Code
+```
 `timescale 1 ns / 1 ps
 
 module TrafficLight(input clk, //LED_NS represent the North-South LEDs
@@ -179,7 +180,7 @@ endcase
 end
 
 endmodule
-
+```
 
 Synthesis RTL Schematic :
 ![Screenshot (132)](https://github.com/user-attachments/assets/3dfa1b3a-97aa-47f0-9a79-5fb9dac40858)
